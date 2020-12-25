@@ -9,7 +9,6 @@ interface ISidebar {
 
 const Sidebar: React.FC<ISidebar> = ({ style }) => {
   const { screenWidth = 1440 } = useWindowSize();
-
   return <Container style={{ ...style, width: screenWidth * 0.16 }} />;
 };
 

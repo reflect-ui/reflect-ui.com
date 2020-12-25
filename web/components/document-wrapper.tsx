@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 
 import Appbar from './appbar';
 import Sidebar from './sidebar';
+import Contents from './contents';
 import useWindowSize from '../utils/useWindowSize';
 
 const DocumentWrapper: React.FC = ({ children }) => {
@@ -12,7 +13,12 @@ const DocumentWrapper: React.FC = ({ children }) => {
       <Appbar />
       <Wrapper>
         <Sidebar />
-        <Container style={{ marginLeft: screenWidth * 0.16 }}>
+        <Container
+          style={{
+            marginLeft: screenWidth * 0.16,
+            marginRight: screenWidth * 0.32,
+          }}
+        >
           <Header>
             <CatalogIcon src="/assets/illustrations/catalog-icons/buttons.svg" />
             <Title>Button</Title>
@@ -23,7 +29,7 @@ const DocumentWrapper: React.FC = ({ children }) => {
           </Header>
           {children}
         </Container>
-        <ContentsWrapper style={{ width: screenWidth * 0.32 }} />
+        <Contents style={{ width: screenWidth * 0.32 }} />
       </Wrapper>
     </>
   );
@@ -72,10 +78,4 @@ const Description = styled.p`
   font-size: 16px;
   line-height: 1;
   color: #828282;
-`;
-
-const ContentsWrapper = styled.div`
-  display: flex;
-  flex-shrink: 0;
-  height: 100vh;
 `;
