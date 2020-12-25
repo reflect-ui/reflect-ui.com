@@ -1,7 +1,13 @@
-import '../styles/globals.css'
+import React from 'react';
+import '../styles/globals.css';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+interface IMyApp {
+  Component: React.ComponentType;
+  pageProps: any;
 }
 
-export default MyApp
+function MyApp({ Component, pageProps }: IMyApp) {
+  return <Component {...pageProps} />;
+}
+
+export default MyApp;
