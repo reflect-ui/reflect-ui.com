@@ -5,6 +5,7 @@
   "author": "bridged.xyz and reflect-ui authors",
   "private": false,
   "scripts": {
+    "setup": "git submodule update --init --recursive",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
