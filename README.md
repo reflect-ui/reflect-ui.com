@@ -1,12 +1,5 @@
 # reflect.bridged.xyz
-
-
-
-
-
 REFLECT DESIGN SYSTEM & IT'S WEBPAGE
-
-
 
 ## Design system
 
@@ -17,10 +10,6 @@ REFLECT DESIGN SYSTEM & IT'S WEBPAGE
 ## Catalog
 
 ![](./docs/catalog.png)
-
-
-
-
 
 ## [NextJS] Getting Started
 
