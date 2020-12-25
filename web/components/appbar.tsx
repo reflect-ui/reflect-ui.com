@@ -26,6 +26,7 @@ const Container = styled.nav`
   padding: 0 28px;
   position: fixed;
   top: 0;
+  z-index: 1;
 `;
 
 const LogoImage = styled.img`
@@ -44,7 +45,7 @@ const ButtonList = styled.div`
     line-height: 1.2;
     text-transform: capitalize;
 
-    &:first-child {
+    &:first-of-type {
       background: #333333;
       margin-right: 16px;
     }
