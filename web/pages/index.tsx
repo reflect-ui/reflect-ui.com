@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { Button } from '@reflect-ui/react';
 
-import AppBar from '../components/appbar';
+import DocumentWrapper from '../components/document-wrapper';
 
 export default function Home() {
   return (
@@ -10,8 +10,9 @@ export default function Home() {
         <title>Button - Reflect System</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <AppBar />
+      <DocumentWrapper>
+        <Button>Button</Button>
+      </DocumentWrapper>
     </>
   );
 }

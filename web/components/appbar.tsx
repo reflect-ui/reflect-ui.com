@@ -16,7 +16,7 @@ const Appbar: React.FC = () => {
 
 export default Appbar;
 
-const Container = styled.header`
+const Container = styled.nav`
   width: 100%;
   height: 80px;
   background: #212121;
