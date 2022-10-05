@@ -4,7 +4,7 @@ REFLECT DESIGN SYSTEM & IT'S WEBPAGE
 ## Design system
 
 - [specs on figma](https://www.figma.com/file/ED6WOfsoYnnYHY8RJwU9Xw/reflect?node-id=33%3A56)
-- [specs on notion](https://www.notion.so/bridgedxyz/6d284a8ca77b469390a2a877963792c8?v=73e9275e2eb14d4e9488cebc438431bc)
+- [specs on notion](https://grida.notion.site/Reflect-0667b343d5e246058fcaf0a842194cf5)
 
 
 ## Catalog
