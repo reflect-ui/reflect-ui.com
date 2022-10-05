@@ -6,7 +6,11 @@ interface ISection {
   description?: string;
 }
 
-const Section: React.FC<ISection> = ({ title, description, children }) => {
+const Section: React.FC<React.PropsWithChildren<ISection>> = ({
+  title,
+  description,
+  children,
+}) => {
   return (
     <Wrapper>
       <Header>

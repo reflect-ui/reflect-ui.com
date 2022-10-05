@@ -37,6 +37,7 @@ export default function Home() {
         <title>Button - Reflect System</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      {/* @ts-ignore */}
       <DocumentWrapper>
         <PreviewWrapper>
           <Preview>

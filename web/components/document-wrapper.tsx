@@ -6,7 +6,7 @@ import Sidebar from './sidebar';
 import Contents from './contents';
 import useWindowSize from '../utils/useWindowSize';
 
-const DocumentWrapper: React.FC = ({ children }) => {
+const DocumentWrapper: React.FC = ({ children }: React.PropsWithChildren) => {
   const { screenWidth = 1440 } = useWindowSize();
   return (
     <>
